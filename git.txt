@@ -20,6 +20,7 @@ git merge branch1  将branch1合并到当前分支 conflict再用add.和commit�
 git remote   查看当前远程仓库
 git remote add useful https://github.com/jaywang9628/useful.git
 git push -u useful master 将本地文件夹useful推到github上的远程仓库useful上的master主线上
+(绑定后只需要使用git push即可)
 git clone https://github.com/jaywang9628/useful.git  克隆到本地仓库
 (这时候再push 需要将useful改为origin)
 
