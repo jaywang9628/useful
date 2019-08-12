@@ -1,11 +1,27 @@
-git中HEAD表示指针当前位置
+1.git中HEAD表示指针当前位置
 
+2.登录
+git config --global user.name "username"
+git config --global user.email "email"
+
+3.基本使用
 git init test
 git add .
 git status
 git commit -m "message"
+(可以用git add . && git commit -m "message")
 git log --oneline --graph --all
 git branch  -b branch1   创建并且进入分支
 git checkout master
 git tag -a v1 "fix sometings"  设置标签V1并且加入一些注释annotation
 git merge branch1  将branch1合并到当前分支 conflict再用add.和commit命令解决
+
+4.远程使用部分
+git remote   查看当前远程仓库
+git remote add useful https://github.com/jaywang9628/useful.git
+git push -u useful master 将本地文件夹useful推到github上的远程仓库useful上的master主线上
+git clone https://github.com/jaywang9628/useful.git  克隆到本地仓库
+(这时候再push 需要将useful改为origin)
+
+5.多人合作
+
