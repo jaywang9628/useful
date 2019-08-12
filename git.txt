@@ -1,0 +1,11 @@
+git中HEAD表示指针当前位置
+
+git init test
+git add .
+git status
+git commit -m "message"
+git log --oneline --graph --all
+git branch  -b branch1   创建并且进入分支
+git checkout master
+git tag -a v1 "fix sometings"  设置标签V1并且加入一些注释annotation
+git merge branch1  将branch1合并到当前分支 conflict再用add.和commit命令解决
