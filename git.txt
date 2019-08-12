@@ -25,4 +25,6 @@ git clone https://github.com/jaywang9628/useful.git  克隆到本地仓库
 (这时候再push 需要将useful改为origin)
 
 5.多人合作
+git clone https://github.com/jaywang9628/useful.git wjj  克隆到本地仓库来合作(类似于绑定) 
+git pull      拉取更新
 
